@@ -7,6 +7,8 @@ import { fadeIn } from './components/variants.jsx';
 import {motion} from "framer-motion";
 import Nav from "./components/navbar";
 import './App.css';
+import Footer from "./components/Footer.jsx";
+import Benefit from "./components/Benefit.jsx";
 
 
 function App() {
@@ -90,6 +92,12 @@ function App() {
         <Steps />
       </div>
 
+      <h1 className="text-center text-3xl font-extrabold mt-8 mb-4 text-white-600 shadow-md">
+    Why Become a <span style={{ background: 'linear-gradient(109.6deg, rgb(0, 204, 130) 11.2%, rgb(58, 181, 46) 91.7%)', WebkitBackgroundClip: 'text', color: 'transparent' }}>Security Captain</span>?
+</h1>
+
+      <Benefit />
+
       {/* Section Header for Testimonials */}
       <div className="font-bold text-2xl flex justify-center items-center h-full mt-10 mb-6 add">
         "Client Testimonials: Our Work Speaks for Itself"
@@ -102,6 +110,8 @@ function App() {
       <Registrationform></Registrationform>
       <FAQ></FAQ>
       
+      <Footer />
+
     </>
   );
 }

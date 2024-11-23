@@ -1,0 +1,98 @@
+/*body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }*/
+  
+  .benefits-section {
+    padding: 3em 0;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .benefits-title {
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 1em;
+  }
+  
+  .benefit-text {
+    color: #808080;
+  }
+  
+  .benefits-list {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+    padding: 0 2em;
+  }
+  
+  .benefit-item {
+    background-color: rgba(33, 33, 33, 0.8); /* Adjusted opacity */
+    color: #fff;
+    border-radius: 8px;
+    padding: 1.5em;
+    min-width: 250px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-image: url('C:\\Users\\hp\\Appointment page\\security-captain\\public\\img.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  .benefit-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay with 50% opacity */
+    border-radius: 8px;
+    z-index: 1;
+  }
+  
+  .benefit-item * {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .benefit-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .benefit-icon {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #3498db;
+  }
+  
+  .benefit-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+  
+  .benefit-points {
+    list-style-type: square;
+    padding-left: 1em;
+    line-height: 1.5;
+  }
+  
+  .benefit-points li::marker {
+    color: #808080;
+  }
+  
+  .benefit-points li {
+    text-align: left;
+  }
+
+  
