@@ -1,6 +1,7 @@
 import Steps from './components/Steps.jsx';
 import Testimonial from './components/Testimonial.jsx';
-
+import FAQ from './components/FAQ.jsx';
+import Registrationform from './components/Registration-form.jsx';
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
       <div className="mb-16"> {/* Adds margin-bottom to create space below the Testimonial component */}
         <Testimonial />
       </div>
+      <Registrationform></Registrationform>
+      <FAQ></FAQ>
       
     </>
   );
