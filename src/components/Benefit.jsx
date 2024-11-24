@@ -55,7 +55,7 @@ const cardData = [
 
 export default function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center px-8 py-8">
+    <div className="min-h-screen flex items-center justify-center px-8 py-8" id="Perks">
       <div className="max-w-[900px] grid grid-cols-12 gap-6 w-full"> {/* Increased gap */}
         {cardData.map((card, index) => (
           <Card

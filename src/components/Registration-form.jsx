@@ -3,7 +3,7 @@ import {Card, CardHeader, CardBody, CardFooter, Button} from "@nextui-org/react"
 export default function Registrationform() {
   return (
     <>
-    <div className="bg-black min-h-screen flex items-center justify-center p-5">
+    <div className="bg-black min-h-screen flex items-center justify-center p-5" id="Apply" >
       
       <div className="max-w-xl h-[650px] mx-auto p-4 bg-gray-700/30 rounded-lg text-white  left-5 pt-10">
       <h1 className="text-white text-center text-2xl mb-5">Apply to become Security Captain</h1>

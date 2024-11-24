@@ -2,7 +2,7 @@
 import "./Footer.css";
 
 const Footer = () => (
-  <footer className="footer">
+  <footer className="footer" id="Contact">
     <div className="footer-content">
       {/* Quick Links */}
       <div className="footer-links">

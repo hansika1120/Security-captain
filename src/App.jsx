@@ -10,13 +10,12 @@ import './App.css';
 import Footer from "./components/Footer.jsx";
 import Benefit from "./components/Benefit.jsx";
 
-
 function App() {
   return (
     <>
     {/*  */}
-    <div className="min-h-screen flex flex-col bg-background text-foreground com-bg">
       <Nav />
+    <div className="min-h-screen flex flex-col bg-background text-foreground com-bg" id='Home'>
       <motion.div className="text-center m-28 heading min-h-screen bg">
         <motion.h1
           variants={fadeIn("left", 0.2)}
@@ -31,14 +30,6 @@ function App() {
           Safe<span className="st2">Your</span>Web
         </span>
         </motion.h1>
-        {/* <motion.h1
-          variants={fadeIn("up", 0.2)}
-          initial="hidden"
-          whileInView={"show"}
-          viewport={{ once: false, amount: 0.7 }}
-          className="text-6xl font-semibold m-4"
-        > */}
-        {/* </motion.h1> */}
         <motion.p
           variants={fadeIn("up", 0.2)}
           initial="hidden"

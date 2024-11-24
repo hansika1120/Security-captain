@@ -11,6 +11,7 @@ function TestimonialCard({ name, imageUrl, stars, text, animation }) {
       data-aos-duration="1000"
       data-aos-easing="ease-in-out"
       className="py-4 mx-2"
+      id="Voices"
     >
       <Card className="py-4 border-2 rounded- 2px border-solid border-white pb-6 min-h-full" style={{ width: "250px" }}>
         <CardHeader className="pt-2 px-4 flex flex-row justify-start items-center">

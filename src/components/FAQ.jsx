@@ -21,7 +21,7 @@ export default function FAQ() {
 
   return (
     <>
-     <div className="bg-black min-h-screen flex items-center justify-center p-5">
+     <div className="bg-black min-h-screen flex items-center justify-center p-5" id="Guidance">
      
      <div className="flex items-center justify-center gap-10 w-full max-w-6xl">
       <div className="w-full max-w-2xl">
