@@ -17,7 +17,7 @@ function App() {
     {/*  */}
     <div className="min-h-screen flex flex-col bg-background text-foreground com-bg">
       <Nav />
-      <motion.div className="text-center m-28 heading min-h-screen">
+      <motion.div className="text-center m-28 heading min-h-screen bg">
         <motion.h1
           variants={fadeIn("left", 0.2)}
           initial="hidden"
@@ -25,20 +25,20 @@ function App() {
           viewport={{ once: false, amount: 0.7 }}  b
           className="text-7xl font-semibold m-4 greyh"
         >
-          Become a <span className="spanText1">"SECURITY CAPTAIN"</span>
+          Become a <span className="spanText1">"SECURITY CAPTAIN"</span><br/>
+        at{" "}
+        <span className="spanText2">
+          Safe<span className="st2">Your</span>Web
+        </span>
         </motion.h1>
-        <motion.h1
+        {/* <motion.h1
           variants={fadeIn("up", 0.2)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
           className="text-6xl font-semibold m-4"
-        >
-          at{" "}
-          <span className="spanText2">
-            Safe<span className="st2">Your</span>Web
-          </span>
-        </motion.h1>
+        > */}
+        {/* </motion.h1> */}
         <motion.p
           variants={fadeIn("up", 0.2)}
           initial="hidden"
@@ -50,13 +50,6 @@ function App() {
           in securing the digital world.
         </motion.p>
         <motion.div className="container">
-          <motion.div
-            variants={fadeIn("up", 0.2)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: false, amount: 0.7 }}
-            className="center"
-          >
             <button className="btn">
               <svg
                 width="180px"
@@ -75,7 +68,6 @@ function App() {
               </svg>
               <span>Apply Now</span>
             </button>
-          </motion.div>
         </motion.div>
       <WobbleCard/>
       </motion.div>
