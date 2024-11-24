@@ -26,7 +26,6 @@ function App() {
           className="text-7xl font-semibold m-4 greyh"
         >
           Become a <span className="spanText1">"SECURITY CAPTAIN"</span>
-          <img src="./captain.png" className="cap-icon" alt="Cap Icon"></img>
         </motion.h1>
         <motion.h1
           variants={fadeIn("up", 0.2)}
