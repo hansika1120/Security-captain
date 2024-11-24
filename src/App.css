@@ -88,6 +88,9 @@ html, body {
   .btn {
     width: 180px;
     height: 60px;
+    position: relative;
+    left: -200px;
+    top: -40px;
     cursor: pointer;
     background: #0fce7b25;
     border: 1px solid #0fce7b25;
@@ -265,8 +268,8 @@ html, body {
       width: 140px;
       height: 45px;
       position: absolute;
-      top: -50px;
-      left: -30%;
+      top: -70px;
+      left: -80%;
       margin-bottom: 80px;
     }
   

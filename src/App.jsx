@@ -18,10 +18,10 @@ function App() {
     <div className="min-h-screen flex flex-col bg-background text-foreground com-bg" id='Home'>
       <motion.div className="text-center m-28 heading min-h-screen bg">
         <motion.h1
-          variants={fadeIn("left", 0.2)}
+          variants={fadeIn("down", 0.2)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.7 }}  b
+          viewport={{ once: true, amount: 0.2 }}  b
           className="text-7xl font-semibold m-4 greyh"
         >
           Become a <span className="spanText1">"SECURITY CAPTAIN"</span><br/>
@@ -34,13 +34,18 @@ function App() {
           variants={fadeIn("up", 0.2)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.7 }}
+          viewport={{ once: false, amount: 0.2 }}
           className="sub-title text-xl"
         >
           Join an elite group of cybersecurity solopreneurs and lead the charge
           in securing the digital world.
         </motion.p>
-        <motion.div className="container">
+        <motion.div className="container"
+        variants={fadeIn("up", 0.2)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amount: 0.2 }}
+        >
             <button className="btn">
               <svg
                 width="180px"
