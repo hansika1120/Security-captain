@@ -51,10 +51,21 @@ const cardData = [
       "Build trust and credibility with clients",
     ],
   },
+  {
+    icon: "🏆",
+    title: "Recognition and Awards",
+    text: "Gain recognition for your contributions to the cybersecurity field.",
+    points: [
+      "Earn certifications and awards for your achievements",
+      "Feature in SafeYourWeb's Hall of Fame",
+      "Opportunities to showcase success stories on global platforms",
+    ],
+  },
 ];
 
 export default function App() {
   return (
+    <div className="min-h-screen flex items-center justify-center px-8 py-8">
     <div className="min-h-screen flex items-center justify-center px-8 py-8" id="Perks">
       <div className="max-w-[900px] grid grid-cols-12 gap-6 w-full"> {/* Increased gap */}
         {cardData.map((card, index) => (
@@ -93,6 +104,7 @@ export default function App() {
           </Card>
         ))}
       </div>
+    </div>
     </div>
   );
 }
