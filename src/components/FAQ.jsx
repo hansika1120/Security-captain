@@ -1,6 +1,6 @@
 import {Accordion, AccordionItem,Image} from "@nextui-org/react";
 /*import { BackgroundGradient } from "../ui/background-gradient";*/
-/*import './FAQ.css';*/
+import './faq.css';
 
 
 export default function FAQ() {
@@ -21,11 +21,11 @@ export default function FAQ() {
 
   return (
     <>
-     <div className="bg-black min-h-screen flex items-center justify-center p-5">
+     <div className="bg-black min-h-screen flex items-center justify-center p-5" id="Guidance">
      
      <div className="flex items-center justify-center gap-10 w-full max-w-6xl">
       <div className="w-full max-w-2xl">
-    <h1 className="text-white font-bold text-2xl flex justify-center items-center h-full mt-10 mb-6 add">FREQUENTLY ASKED QUESTIONS</h1>
+    <h1 className="text-white font-bold text-2xl flex justify-center items-center h-full mt-10 mb-6 add myblue">FREQUENTLY ASKED QUESTIONS</h1>
     <Accordion  variant="splitted">
       <AccordionItem className="bg-gray-800 text-white" key="1" aria-label="Accordion 1" title="What if I haven’t completed the SecDev certification yet?" >
       <p className="text-white">{defaultContent}</p>
