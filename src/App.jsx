@@ -21,7 +21,7 @@ function App() {
           variants={fadeIn("down", 0.2)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: true, amount: 0.2 }}  b
+          viewport={{ once: true, amount: 0.2 }}  
           className="text-7xl font-semibold m-4 greyh"
         >
           Become a <span className="spanText1">"SECURITY CAPTAIN"</span><br/>

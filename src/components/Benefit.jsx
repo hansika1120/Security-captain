@@ -1,4 +1,6 @@
 import { Card, Image } from "@nextui-org/react";
+import { fadeIn } from "./variants";
+import { motion } from "framer-motion";
 
 const cardData = [
   {
@@ -65,7 +67,12 @@ const cardData = [
 
 export default function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center px-8 py-8">
+    <motion.div 
+    variants={fadeIn("up", 0.2)}
+    initial="hidden"
+    whileInView={"show"}
+    viewport={{ once: true, amount: 0.2 }}
+    className="min-h-screen flex items-center justify-center px-8 py-8">
     <div className="min-h-screen flex items-center justify-center px-8 py-8" id="Perks">
       <div className="max-w-[900px] grid grid-cols-12 gap-6 w-full"> {/* Increased gap */}
         {cardData.map((card, index) => (
@@ -105,6 +112,6 @@ export default function App() {
         ))}
       </div>
     </div>
-    </div>
+    </motion.div>
   );
 }

@@ -48,12 +48,11 @@ export default function FAQ() {
       
     <div className="w-full max-w-md">
       
-    
-          <Image className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900"
+    <img src="./faq.png"></img>
+          {/* <img className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900"
             src="./faq-image.png/400x400" 
             alt="Illustration"
-            
-          />
+          /> */}
           
         </div>
       </div>
